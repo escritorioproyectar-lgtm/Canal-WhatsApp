@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Abrir en navegador</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding: 50px; }
+    button { padding: 15px 30px; font-size: 1.2em; }
+  </style>
+</head>
+<body>
+  <h1>Únete al canal de WhatsApp</h1>
+  <p>👇 Por favor, toca el botón y luego selecciona «Abrir en navegador».</p>
+  <button id="open">Abrir Canal</button>
+  <script>
+    document.getElementById('open').addEventListener('click', () => {
+      const url = 'https://whatsapp.com/channel/0029Va9M6eRJUM2YzqX5W73D';
+      window.location = url;
+    });
+  </script>
+</body>
+</html>
